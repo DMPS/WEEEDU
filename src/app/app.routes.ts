@@ -5,6 +5,7 @@ import {AboutComponent} from './about/about.component'
 export const routes: RouterConfig = [
   { path: 'about', component: AboutComponent },
   { path: 'game', component: GameComponent },
+  {path: '', redirectTo: '/about'},
 ];
 
 export const APP_ROUTER_PROVIDERS = [
