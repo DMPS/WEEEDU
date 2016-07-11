@@ -1,0 +1,22 @@
+<div id="wrapper">
+  <!-- Header -->
+  <header id="header" class="alt">
+    <span class="logo"><img src="images/logo.svg" alt="" /></span>
+    <h1>WEEEDU</h1>
+    <p>Learn electronics repair while having fun. <br />
+    built by <a href="https://twitter.com/daltonhacks">@daltonhacks</a> for <a href="https://mobicycle.co.uk">MobiCycle UK</a>.</p>
+  </header>
+
+  <!-- Nav -->
+  <nav id="nav">
+    <ul>
+      <li><a [routerLink]="['/about']">About</a></li>
+      <li><a [routerLink]="['/game']">Game</a></li>
+    </ul>
+  </nav>
+  <div id="main">
+    <section class="main special">
+        <router-outlet></router-outlet>
+    </section>
+  </div>
+</div>
